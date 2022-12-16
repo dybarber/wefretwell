@@ -11,5 +11,11 @@
       "en" : [ "Photographs of William Edward Fretwell" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://dybarber.github.io/wefretwell/manifests/fretwell-manifest.json",
+    "label" : {
+      "en" : [ "Photographs of William Edward Fretwell" ]
+    },
+    "type" : "Manifest"
   } ]
 }
