@@ -1,0 +1,39 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://dybarber.github.io/wefretwell/manifests/fretwell-manifest.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Photographs of William Edward Fretwell" ]
+  },
+  "items" : [ {
+    "id" : "https://iiif.archivelab.org/iiif/wefretwell-kalgoorlie/canvas/p1",
+    "type" : "Canvas",
+    "label" : {
+      "en" : [ "Canvas with a single IIIF image" ]
+    },
+    "height" : 3024,
+    "width" : 4032,
+    "items" : [ {
+      "id" : "https://iiif.io/api/cookbook/recipe/0005-image-service/page/p1/1",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.archivelab.org/iiif/wefretwell-kalgoorlie/annotation/p0001-image",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://iiif.archivelab.org/iiif/wefretwell-kalgoorlie/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 3024,
+          "width" : 4032,
+          "service" : [ {
+            "id" : "https://iiif.archivelab.org/iiif/wefretwell-kalgoorlie/",
+            "profile" : "level1",
+            "type" : "ImageService3"
+          } ]
+        },
+        "target" : "https://iiif.archivelab.org/iiif/wefretwell-kalgoorlie/canvas/p1"
+      } ]
+    } ]
+  } ]
+}
