@@ -1,0 +1,15 @@
+{
+  "id" : "https://dybarber.github.io/wefretwell/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in dybarber/wefretwell project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "id" : "https://dybarber.github.io/wefretwell/manifests/manifest.json",
+    "label" : {
+      "en" : [ "Photographs of William Edward Fretwell" ]
+    },
+    "type" : "Manifest"
+  } ]
+}
